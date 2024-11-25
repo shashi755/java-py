@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Cloning the GitHub repository...'
-                    git branch: 'main', url: 'https://github.com/your-username/your-repository.git'
+                    git branch: 'main', url: 'https://github.com/shashi755/java-py.git'
                 }
             }
         }
